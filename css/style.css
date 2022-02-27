@@ -1,0 +1,127 @@
+body{
+    width: fit-content;
+    text-align: center;
+    font-family: cursive;
+    margin: 0%;
+}
+
+h1{
+    font-size: 5.625rem ;
+    margin: 50px auto 0px auto;
+    font-family: caveat;
+    color: #6c8081;
+    line-height: 2;
+}
+
+h2{
+    font-size: 3rem;
+    color: #74959A;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-size: 1.5rem;
+    color: #789395;
+}
+
+p{
+    color: #000000;
+    line-height: 2;
+}
+a{
+    color: #6c8081;
+    font-family: cursive;
+}
+
+hr{
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 7px;
+    width: 75%;
+}
+
+.topContainer{
+    background-color: #E5E3C9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middleContainer{
+    background-color: #E5E3C9;
+}
+
+.bottomContainer{
+    background-color: #E5E3C9;
+    padding: 50px 0 20px;
+}
+
+.topCloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottomCloud{
+    position: relative;
+    right: 200px;
+}
+
+.shortBio{
+    width: 50%;
+    margin: auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skillsImageleft{
+    width: 25%;
+    float: left;
+    margin-right: 25px;
+}
+
+.skillsImageright{
+    width: 25%;
+    float: right;
+    margin-left: 25px;
+}
+
+.contactMessage{
+    width: 40%;
+    margin: auto;
+}
+
+.contactButton {
+    margin-top: 25px;
+    background: #e8a2a2;
+    background-image: -webkit-linear-gradient(top, #e8a2a2, #e8a2a2);
+    background-image: -moz-linear-gradient(top, #e8a2a2, #e8a2a2);
+    background-image: -ms-linear-gradient(top, #e8a2a2, #e8a2a2);
+    background-image: -o-linear-gradient(top, #e8a2a2, #e8a2a2);
+    background-image: linear-gradient(to bottom, #e8a2a2, #e8a2a2);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    -webkit-box-shadow: 3px 2px 13px #000000;
+    -moz-box-shadow: 3px 2px 13px #000000;
+    box-shadow: 3px 2px 13px #000000;
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contactButton:hover {
+    background: #e8a5a5;
+    background-image: -webkit-linear-gradient(top, #e8a5a5, #e81515);
+    background-image: -moz-linear-gradient(top, #e8a5a5, #e81515);
+    background-image: -ms-linear-gradient(top, #e8a5a5, #e81515);
+    background-image: -o-linear-gradient(top, #e8a5a5, #e81515);
+    background-image: linear-gradient(to bottom, #e8a5a5, #e81515);
+    text-decoration: none;
+  }
